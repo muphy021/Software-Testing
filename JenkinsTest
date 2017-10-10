@@ -1,16 +1,33 @@
-//Jenkinsfile (Declarative Pipeline)//
-
+// Declarative //
 pipeline {
-    agent any
-    stages {
-        stage('Build') {
-            steps {
-                sh 'echo "Hello World"'
-                sh '''
-                    echo "Multiline shell steps works too"
-                    ls -lah
-                '''
-            }
-        }
-    }
+	agent any
+	stages {
+		stage('Build') { 
+			steps { 
+				sh 'echo "Building phrase"' 
+			}
+		}
+		stage('Test'){
+			steps {
+				sh 'echo "Testing phrase"'
+			}
+		}
+		stage('Deploy') {
+			steps {
+				sh 'echo "Deploying phrase"'
+			}
+		}
+	}
+}
+// Script //
+node {
+	stage('Build') {
+		sh 'echo "Building 1 phrase" '
+	}
+	stage('Test') {
+	    sh 'echo "Testing 2 phrase" '
+	}
+	stage('Deploy') {
+		sh 'echo "Deploying 3 phrase" '
+	}
 }
