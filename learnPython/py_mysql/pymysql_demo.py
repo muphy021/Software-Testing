@@ -2,6 +2,7 @@
 
 import pymysql
 import logging
+import os
 
 # LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
@@ -11,15 +12,13 @@ DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
 logging.basicConfig(level=logging.DEBUG, format=LOG_FORMAT, datefmt=DATE_FORMAT) # 'module' object has no attribute 'basicConfig'因为起的文件名是logging
 
 
-
-
-
+sql_pwd = os.environ.get("mysql_pwd") # To avoid to passwd explicitly
 
 
 
 mysql_ip = "localhost"
 mysql_user = "root"
-mysql_pwd = "*****"
+mysql_pwd = sql_pwd
 mysql_db = "db1"
 
 # open mysql database
