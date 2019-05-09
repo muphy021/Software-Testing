@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.DEBUG, format=LOG_FORMAT, datefmt=DATE_FORMAT)
 
 mysql_ip = "localhost"
 mysql_user = "root"
-mysql_pwd = "test1234"
+mysql_pwd = "*****"
 mysql_db = "db1"
 
 # open mysql database
