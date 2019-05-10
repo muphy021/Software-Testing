@@ -3,13 +3,13 @@ import sys
 
 print("current work dir 1 : " + os.getcwd())
 
-mac_join_path = os.path.join("/", "Users", "mofei", "Downloads")
+mac_join_path = os.path.join("/", "root", "perl5")
 print(mac_join_path)
 
 os.chdir(mac_join_path)
 print("current work dir 2 : " + os.getcwd())
 
-os.makedirs("/Users/mofei/makedirs")
+os.makedirs("/test/makedirs")
 
 '''
 区分windows和linux、mac os上的斜杠
