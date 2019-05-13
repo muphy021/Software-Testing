@@ -6,7 +6,7 @@ env for android appium
 
 3. android sdk, android sdk tools, android sdk platform-tools
 
-4. python, appium-python-client
+4. python, appium-python-client（Appium-Python-Client）
 
 5. different platform: windows, linux, mac
 
