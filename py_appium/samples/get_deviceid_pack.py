@@ -36,6 +36,11 @@ appPackageAdb = list(os.popen('aapt dump badging ' + appLocation ).readlines())
 appPackage = re.findall(r'\'com\w*.*?\'', appPackageAdb[0])[0]
 logging.info("应用安装包是：" + appPackage)
 
+
+'''
+目前只支持华为手机客户端登录 - 2019-5-13
+'''
+
 # 删除以前的安装包
 os.system('adb uninstall ' + appPackage)
 '''
@@ -73,7 +78,7 @@ logon_name.send_keys("murphy" + "\n")
 
 login_pwd = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/TextInputLayout[2]/android.widget.FrameLayout/android.widget.EditText")
 login_pwd.click()
-login_pwd.send_keys("******"+"\n")
+login_pwd.send_keys("Test1234"+"\n")
 # login_pwd.send_keys()
 # driver.hide_keyboard() # Keyboard has no UI; no closing necessary
 
