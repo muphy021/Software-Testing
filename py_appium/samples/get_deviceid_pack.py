@@ -73,7 +73,7 @@ logon_name.send_keys("murphy" + "\n")
 
 login_pwd = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/TextInputLayout[2]/android.widget.FrameLayout/android.widget.EditText")
 login_pwd.click()
-login_pwd.send_keys("Test1234"+"\n")
+login_pwd.send_keys("******"+"\n")
 # login_pwd.send_keys()
 # driver.hide_keyboard() # Keyboard has no UI; no closing necessary
 
