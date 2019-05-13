@@ -1,0 +1,14 @@
+env for android appium
+======================
+1. jdk, jre
+
+2. appium
+
+3. android sdk, android sdk tools, android sdk platform-tools
+
+4. python, appium-python-client
+
+5. different platform: windows, linux, mac
+
+6. settings for appiun: appium-doctor, ANDROID_HOME, JAVA_HOME
+
