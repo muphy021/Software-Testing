@@ -78,7 +78,7 @@ logon_name.send_keys("murphy" + "\n")
 
 login_pwd = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/TextInputLayout[2]/android.widget.FrameLayout/android.widget.EditText")
 login_pwd.click()
-login_pwd.send_keys("*******"+"\n")
+login_pwd.send_keys("******"+"\n")
 # login_pwd.send_keys()
 # driver.hide_keyboard() # Keyboard has no UI; no closing necessary
 
@@ -94,13 +94,14 @@ login_button.click()
 # by_android_uiautomator -> new UiSelector()
 '''
 
-driver.find_elements_by_android_uiautomator('new UiSelector().description("确定")')
-vpn_click = driver.find_elements_by_android_uiautomator('new UiSelector().clickable(true)')
+# vpn_click1 = driver.find_elements_by_android_uiautomator('new UiSelector().description("确定")')
+vpn_click2 = driver.find_elements_by_android_uiautomator('new UiSelector().clickable(true)')
+
 logging.info("VPN的对话框包含如下内容：")
-for click_content in vpn_click:
+for click_content in vpn_click2:
     logging.info(click_content)
-logging.info("选择[1]才是确定")
-vpn_click[1].click() #1才是确定
+
+vpn_click2[1].click() #1才是确定
 
 
 
