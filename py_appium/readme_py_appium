@@ -12,3 +12,4 @@ env for android appium
 
 6. settings for appiun: appium-doctor, ANDROID_HOME, JAVA_HOME
 
+7. 模拟系统按键driver.press_keycode(4)

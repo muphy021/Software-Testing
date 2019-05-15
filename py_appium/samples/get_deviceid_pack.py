@@ -1,3 +1,4 @@
+# !/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from appium import webdriver
@@ -20,7 +21,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s-%(levelname)s-%(mess
 appLocation = "/Users/mofei/Downloads/ucss/MSG/55/SGAgent_Android_3.1.0_55.apk"
 
 
-
+''''''
 # 读取设备 id
 readDeviceId = list(os.popen('adb devices').readlines())
 
@@ -40,16 +41,17 @@ logging.info("应用安装包是：" + appPackage)
 '''
 目前只支持华为手机客户端登录 - 2019-5-13
 '''
-
+# appPackage = 'com.skyguard.mobile.agent'
 # 删除以前的安装包
 os.system('adb uninstall ' + appPackage)
 '''
 desired_caps = {}
 desired_caps['platformName'] = 'Android'
-desired_caps['platformVersion'] = deviceVersion
+desired_caps['platformVersion'] = 8.0
 desired_caps['deviceName'] = 'Android Emulator'
 desired_caps['appPackage'] = 'com.skyguard.mobile.agent'
 desired_caps['appActivity'] = 'com.skyguard.mobile.ui.SGLoginActivity'
+desired_caps['app'] = appLocation
 
 '''
 desired_caps = {
@@ -78,7 +80,7 @@ logon_name.send_keys("murphy" + "\n")
 
 login_pwd = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/TextInputLayout[2]/android.widget.FrameLayout/android.widget.EditText")
 login_pwd.click()
-login_pwd.send_keys("******"+"\n")
+login_pwd.send_keys("*****"+"\n")
 # login_pwd.send_keys()
 # driver.hide_keyboard() # Keyboard has no UI; no closing necessary
 
@@ -110,15 +112,17 @@ allow_install_app = driver.find_element_by_xpath("/hierarchy/android.widget.Fram
 allow_install_app.click()
 
 
-back_view1 = driver.find_element_by_xpath("//android.widget.FrameLayout[@content-desc=\"向上导航\"]/android.widget.ImageView")
-back_view1.click()
+#back_view1 = driver.find_element_by_xpath("//android.widget.FrameLayout[@content-desc=\"向上导航\"]/android.widget.ImageView")
+#back_view1.click()
+driver.press_keycode(4)
 
 allow_install_other = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.support.v7.widget.RecyclerView/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.Switch")
 allow_install_other.click()
 
 
-back_view2 = driver.find_element_by_xpath("//android.widget.FrameLayout[@content-desc=\"向上导航\"]/android.widget.ImageView")
-back_view2.click()
+# back_view2 = driver.find_element_by_xpath("//android.widget.FrameLayout[@content-desc=\"向上导航\"]/android.widget.ImageView")
+# back_view2.click()
+driver.press_keycode(4) # 4是系统回退键
 
 client_info_click_view = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TabHost/android.widget.TabHost/android.widget.LinearLayout/android.widget.TabWidget/android.widget.LinearLayout[3]").click()
 
@@ -131,6 +135,6 @@ for click_times in range(1, 3):
     click_update.click()
     logging.info('第'+str(click_times+1)+'次点击立即更新')
 
-
+driver.press_keycode(3) # 3是系统HOME键
 
 driver.quit()
