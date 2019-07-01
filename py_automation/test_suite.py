@@ -3,7 +3,7 @@
 import unittest
 from py_automation.test_mathfunc import TestMathFunc
 # from HTMLTestRunner import HTMLTestRunner # pip install html-testRunner
-from py_automation.HTMLTestRunner2 import HTMLTestRunner
+from HTMLTestRunner import HTMLTestRunner
 
 import time
 import os
