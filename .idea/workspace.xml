@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1875a1a7-f5d9-4bf5-8a11-44bd33b7aafc" name="Default Changelist" comment="run case for smtp">
-      <change afterPath="$PROJECT_DIR$/learnPython/py_basic/function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/caselist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/common/Log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/common/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/common/configDB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/common/configEmail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/common/configHttp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/common/intro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/readConfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/result/intro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/runAll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/testCase/intro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/case_1/testFile/intro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/config/globalparameter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/runtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/src/common/Base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/src/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/src/common/driver_configure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/src/common/gesture_mainpulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/src/common/send_email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/src/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/src/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/src/test_case/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_automation/py_appium/src/test_case/test_appium.py" afterDir="false" />
+    <list default="true" id="1875a1a7-f5d9-4bf5-8a11-44bd33b7aafc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_automation/test_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/test_suite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_automation/case_1/runAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/case_1/runAll.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_automation/case_1/readConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#21#30#0" expanded="true" />
               </folding>
@@ -62,58 +36,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/Log.py">
+        <entry file="file://$PROJECT_DIR$/py_automation/case_1/runAll.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="150">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/configHttp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/configDB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="906">
-              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#11#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/configEmail.py">
+        <entry file="file://$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -165,7 +103,6 @@
         <option value="$PROJECT_DIR$/py_automation/py_appium/src/test_case/test_appium.py" />
         <option value="$PROJECT_DIR$/py_automation/py_appium/src/pages/login_page.py" />
         <option value="$PROJECT_DIR$/py_automation/test_suite.py" />
-        <option value="$PROJECT_DIR$/py_automation/case_1/runAll.py" />
         <option value="$PROJECT_DIR$/py_automation/case_1/caselist.txt" />
         <option value="$PROJECT_DIR$/py_automation/case_1/testFile/intro.txt" />
         <option value="$PROJECT_DIR$/py_automation/case_1/testCase/intro.txt" />
@@ -178,6 +115,8 @@
         <option value="$PROJECT_DIR$/py_automation/case_1/common/common.py" />
         <option value="$PROJECT_DIR$/py_automation/case_1/common/configDB.py" />
         <option value="$PROJECT_DIR$/py_automation/case_1/common/configEmail.py" />
+        <option value="$PROJECT_DIR$/py_automation/case_1/runAll.py" />
+        <option value="$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py" />
       </list>
     </option>
   </component>
@@ -210,12 +149,6 @@
             <path>
               <item name="git" type="b2602c69:ProjectViewProjectNode" />
               <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="learnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="py_basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
               <item name="py_autogui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,6 +168,13 @@
               <item name="py_automation" type="462c0819:PsiDirectoryNode" />
               <item name="case_1" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git" type="462c0819:PsiDirectoryNode" />
+              <item name="py_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="case_1" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.exe_py_test">
+  <component name="RunManager" selected="Python.tstReadConfig">
     <configuration name="exe_py_test" type="PythonConfigurationType" factoryName="Python">
       <module name="Software-Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,7 +229,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tstReadConfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Software-Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,11 +237,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnPython/py_basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_automation/case_1/practice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnPython/py_basic/function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,7 +312,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.exe_py_test" />
-      <item itemvalue="Python.function" />
+      <item itemvalue="Python.tstReadConfig" />
       <item itemvalue="Python tests.Nosetests in test_mathfunc.py" />
       <item itemvalue="Python tests.Nosetests in test_suite.py" />
       <item itemvalue="Python tests.Nosetests in unittest.py" />
@@ -380,11 +320,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tstReadConfig" />
         <item itemvalue="Python tests.Nosetests in test_suite.py" />
         <item itemvalue="Python tests.Nosetests for test_mathfunc.TestMathFunc" />
         <item itemvalue="Python tests.Nosetests in test_mathfunc.py" />
         <item itemvalue="Python tests.Nosetests in unittest.py" />
-        <item itemvalue="Python.function" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561941420369</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="test python automation with unittest">
+      <created>1561963105353</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1561963105353</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -541,7 +488,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295325" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921012" visible="true" weight="0.3652968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921012" weight="0.3652968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,7 +516,8 @@
     <MESSAGE value="run case for smtp" />
     <MESSAGE value="update list tuple dict" />
     <MESSAGE value="test unittest" />
-    <option name="LAST_COMMIT_MESSAGE" value="test unittest" />
+    <MESSAGE value="test python automation with unittest" />
+    <option name="LAST_COMMIT_MESSAGE" value="test python automation with unittest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,20 +531,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/appium/webdriver/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/appium/webdriver/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -831,27 +765,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_1/caselist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_automation/case_1/testCase/intro.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/test_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#25#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_1/runAll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_automation/py_appium/runtest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -886,39 +796,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_1/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_1/readConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/Log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/configHttp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -946,7 +829,78 @@
     <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/configEmail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
-          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/configHttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_1/readConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#21#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_1/caselist.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_1/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_1/runAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="e#11#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
