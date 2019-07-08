@@ -11,14 +11,18 @@ import sys
 #import configparser
 # print(proDir)
 # ios_appName = "SGAgent_iOS_3.1.0_143.ipa"
-def download_ios_mobile(ios_appName):
+
+# test.cms.skyguard.com.cn
+
+def download_ios_mobile(ios_appName, mag_domain_name):
     appName = ios_appName[-5:0:-1]
     namelength=len(appName)+1
     realName = ios_appName[0]+appName[-1:-namelength:-1]
     # print(realName)
     appDownloadUrl = "/mobile/v1/device/appFile/mobile_agent/"+ios_appName
 
-    urlPrefix = "https://test.cms.skyguard.com.cn:8082"
+    urlPrefix = "https://" + mag_domain_name + ":8082"
+
     params = {'ipaDownloadUrl': urlPrefix + appDownloadUrl, 'appName': realName, 'bundleId': "com.skyguard.endpoint.ios.agent.MobileAgent"}
     paramsStr = json.dumps(params)
     # print(paramsStr)
@@ -32,14 +36,15 @@ def download_ios_mobile(ios_appName):
 
 while(True):
     try:
-        if sys.argv[1] == '':
-            print("请输入iOS版本的客户端全称")
+        if sys.argv[1] == '' or sys.argv[2] == '':
+            print("请输入iOS版本的客户端全称和MAG域名")
             continue
         else:
             ios_appName = sys.argv[1]
-            download_ios_mobile(ios_appName)
+            mag_domain_name = sys.argv[2]
+            download_ios_mobile(ios_appName, mag_domain_name)
             break
     except:
-        print("参数请输入iOS版本的客户端全称，如SGAgent_iOS_3.1.0_143.ipa")
+        print("请输入iOS版本的客户端全称和MAG域名，如 SGAgent_iOS_3.1.0_143.ipa test.cms.skyguard.com.cn")
         exit(1)
 
