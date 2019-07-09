@@ -6,9 +6,9 @@ description:测试登录和退出功能
 import unittest
 
 # from py_automation.py_appium.src.pages import index_page,myInfo_page,login_page,relative_page
-from py_automation.py_appium.src.pages import login_page
-from py_automation.py_appium.src.common import gesture_mainpulation
-from py_automation.py_appium.src.common import driver_configure
+from py_automation import login_page
+from py_automation import gesture_mainpulation
+from py_automation import driver_configure
 
 
 class test_appium(unittest.TestCase):

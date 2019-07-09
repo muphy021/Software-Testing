@@ -4,8 +4,8 @@ __author__ = 'Helen'
 description:执行测试
 '''
 import unittest,time, HTMLTestRunner
-from py_automation.py_appium.config.globalparameter import test_case_path,report_name
-from py_automation.py_appium.src.common import send_email
+from py_automation import test_case_path,report_name
+from py_automation import send_email
 
 
 # 构建测试集,包含src/test_case目录下的所有以test开头的.py文件

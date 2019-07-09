@@ -3,7 +3,7 @@ __author__ = 'Helen'
 '''
 description:登录页
 '''
-from py_automation.py_appium.src.common import Base_page
+from py_automation import Base_page
 from appium.webdriver.common import mobileby
 
 

@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1875a1a7-f5d9-4bf5-8a11-44bd33b7aafc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/py_automation/case_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_report/htmltestrunner3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software-Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software-Testing.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_automation/HTMLTestRunner2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_automation/mathfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/case_2/mathfunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_automation/py_appium/runtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/py_appium/runtest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_automation/py_appium/src/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/py_appium/src/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_automation/py_appium/src/test_case/test_appium.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/py_appium/src/test_case/test_appium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_automation/testResult_report2019-06-29 164331.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_automation/test_mathfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/case_2/test_mathfunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_automation/test_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/case_2/test_suite.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,55 +25,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/config.ini">
+        <entry file="file://$PROJECT_DIR$/py_automation/case_2/test_mathfunc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/readConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="161">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
-                <element signature="e#21#30#0" expanded="true" />
+                <element signature="e#25#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/runAll.py">
+        <entry file="file://$PROJECT_DIR$/py_automation/case_2/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            <state relative-caret-position="253">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#11#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-              <folding>
-                <element signature="e#48#59#0" expanded="true" />
+                <element signature="e#25#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_1/practice/生成下载ios版本Agent的链接.py">
+        <entry file="file://$PROJECT_DIR$/py_report/htmltestrunner3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="154">
+              <caret line="590" column="63" selection-start-line="590" selection-start-column="59" selection-end-line="590" selection-end-column="63" />
+              <folding>
+                <element signature="e#3514#3529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_automation/case_2/mathfunc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -77,6 +77,13 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>font</find>
+      <find>pass</find>
+      <find>popup_link</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -128,13 +135,17 @@
         <option value="$PROJECT_DIR$/py_automation/case_1/runAll.py" />
         <option value="$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py" />
         <option value="$PROJECT_DIR$/py_automation/case_1/practice/下载的ios版本的脚本.py" />
+        <option value="$PROJECT_DIR$/py_automation/case_1/practice/生成下载ios版本Agent的链接.py" />
+        <option value="$PROJECT_DIR$/py_automation/case_2/test_suite.py" />
+        <option value="$PROJECT_DIR$/py_automation/case_2/test_mathfunc.py" />
+        <option value="$PROJECT_DIR$/py_report/htmltestrunner3.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="968" />
+    <option name="height" value="925" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -154,37 +165,18 @@
             <path>
               <item name="git" type="b2602c69:ProjectViewProjectNode" />
               <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="learnPython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="py_autogui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
               <item name="py_automation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git" type="b2602c69:ProjectViewProjectNode" />
               <item name="git" type="462c0819:PsiDirectoryNode" />
               <item name="py_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="case_1" type="462c0819:PsiDirectoryNode" />
+              <item name="case_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git" type="b2602c69:ProjectViewProjectNode" />
               <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="py_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="case_1" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="py_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="case_1" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="py_report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,10 +187,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/py_automation/py_appium" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/py_automation/case_2/test_suite.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyLibrary\git\py_automation\case_2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/py_automation/py_appium" />
       <recent name="$PROJECT_DIR$/py_automation/py_appium/src/test_case" />
@@ -218,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tstReadConfig">
+  <component name="RunManager" selected="Python.test_suite">
     <configuration name="exe_py_test" type="PythonConfigurationType" factoryName="Python">
       <module name="Software-Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,7 +226,49 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_automation/test_suite.py" />
+      <option name="SCRIPT_NAME" value="C:\MyLibrary\git\py_automation\case_2\test_suite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="生成下载ios版本Agent的链接" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Software-Testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\MyLibrary\git\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_automation/case_1/practice" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_automation/case_1/practice/生成下载ios版本Agent的链接.py" />
+      <option name="PARAMETERS" value="SGAgentiOS_3.1.0_132 test.com.cn" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_suite" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Software-Testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\MyLibrary\git\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_automation/case_2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_automation/case_2/test_suite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +290,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="SG TEST" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -261,7 +298,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for test_mathfunc.TestMathFunc" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for py_automation.case_2.test_mathfunc.TestMathFunc" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="Software-Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,41 +309,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_mathfunc.TestMathFunc&quot;" />
+      <option name="_new_target" value="&quot;py_automation.case_2.test_mathfunc.TestMathFunc&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in test_mathfunc.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="Software-Testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_automation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/py_automation/test_mathfunc.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Nosetests in test_suite.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="Software-Testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_automation" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/py_automation/test_suite.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Nosetests in unittest.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in C:/MyLibrary/git/py_automation/unittest.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="Software-Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,21 +328,53 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Nosetests in test_mathfunc.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_automation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/py_automation/case_2/test_mathfunc.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in test_suite.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_automation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/py_automation/case_2/test_suite.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python.test_suite" />
+      <item itemvalue="Python.生成下载ios版本Agent的链接" />
       <item itemvalue="Python.exe_py_test" />
       <item itemvalue="Python.tstReadConfig" />
-      <item itemvalue="Python tests.Nosetests for test_mathfunc.TestMathFunc" />
+      <item itemvalue="Python tests.Nosetests for py_automation.case_2.test_mathfunc.TestMathFunc" />
       <item itemvalue="Python tests.Nosetests in test_mathfunc.py" />
       <item itemvalue="Python tests.Nosetests in test_suite.py" />
-      <item itemvalue="Python tests.Nosetests in unittest.py" />
+      <item itemvalue="Python tests.Nosetests in C:/MyLibrary/git/py_automation/unittest.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.tstReadConfig" />
         <item itemvalue="Python tests.Nosetests in test_suite.py" />
-        <item itemvalue="Python tests.Nosetests for test_mathfunc.TestMathFunc" />
+        <item itemvalue="Python tests.Nosetests for py_automation.case_2.test_mathfunc.TestMathFunc" />
         <item itemvalue="Python tests.Nosetests in test_mathfunc.py" />
-        <item itemvalue="Python tests.Nosetests in unittest.py" />
+        <item itemvalue="Python tests.Nosetests in C:/MyLibrary/git/py_automation/unittest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -498,16 +537,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="968" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="883" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22432859" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22198732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295325" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921012" visible="true" weight="0.3652968" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990878" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49921012" visible="true" weight="0.21835883" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3977747" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -545,17 +584,15 @@
           <line>98</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/py_automation/case_1/practice/生成下载ios版本Agent的链接.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_appium/how-to-use-appium">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="82" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_appium/readme_py_appium">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -640,13 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/HtmlTestRunner/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/HtmlTestRunner/runner.py" />
     <entry file="file://$PROJECT_DIR$/py_automation/testResult_report2019-06-29 164139.html" />
     <entry file="file://$PROJECT_DIR$/learnPython/py_basic/list_tuple_dic.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -662,45 +693,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/HTMLTestRunner2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="629" selection-start-line="629" selection-end-line="629" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/mathfunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/test_mathfunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#25#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_automation/py_appium/config/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/py_appium/config/globalparameter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#63#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_automation/py_appium/src/pages/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -788,16 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/py_appium/runtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="e#61#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/Log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -838,13 +822,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/HTMLTestRunner.py" />
     <entry file="file://$PROJECT_DIR$/py_automation/case_1/common/configHttp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
@@ -862,29 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/test_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#25#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_1/runAll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="e#11#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_1/practice/下载的ios版本的脚本.py" />
     <entry file="file://$PROJECT_DIR$/py_automation/case_1/readConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="-100">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#21#30#0" expanded="true" />
@@ -899,27 +858,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_1/practice/下载的ios版本的脚本.py">
+    <entry file="file://$PROJECT_DIR$/py_automation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_1/runAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        <state relative-caret-position="874">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="e#11#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_2/HTMLTestRunner2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="629" selection-start-line="629" selection-end-line="629" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/py_appium/runtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#61#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/py_appium/config/globalparameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#63#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_automation/case_1/practice/tstReadConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="-322">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#48#59#0" expanded="true" />
+            <element signature="e#27#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_automation/case_1/practice/生成下载ios版本Agent的链接.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="1150">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#27#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_2/mathfunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_2/test_mathfunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_2/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_report/htmltestrunner3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="590" column="63" selection-start-line="590" selection-start-column="59" selection-end-line="590" selection-end-column="63" />
+          <folding>
+            <element signature="e#3514#3529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
