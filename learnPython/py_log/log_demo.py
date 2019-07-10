@@ -35,15 +35,16 @@ https://www.cnblogs.com/yyds/p/6901864.html
 
 
 '''
-LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
-DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
-# filename='test_py_logging.log',
-logging.basicConfig( level=logging.DEBUG, format=LOG_FORMAT, datefmt=DATE_FORMAT) # 'module' object has no attribute 'basicConfig'因为起的文件名是logging
+def log_ex():
+    LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+    DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
+    # filename='test_py_logging.log',
+    logging.basicConfig( level=logging.DEBUG, format=LOG_FORMAT, datefmt=DATE_FORMAT) # 'module' object has no attribute 'basicConfig'因为起的文件名是logging
 
 
 
-logging.debug("This is a debug log.")
-logging.info("This is a info log.")
-logging.warning("This is a warning log.")
-logging.error("This is a error log.")
-logging.critical("This is a critical log.")
+    logging.debug("This is a debug log.")
+    logging.info("This is a info log.")
+    logging.warning("This is a warning log.")
+    logging.error("This is a error log.")
+    logging.critical("This is a critical log.")

@@ -320,7 +320,7 @@ a.popup_link:hover {
     /*border: solid #627173 1px; */
     font-family: "Lucida Console", "Courier New", Courier, monospace;
     text-align: left;
-    font-size: 12pt;
+    font-size: 20pt;
     width: 500px;
 }
 }
@@ -342,7 +342,7 @@ a.popup_link:hover {
     background-color: #f5f5f5;
     border-top-width: 10px;
     border-color: #d6e9c6;
-	font-size: 12px;
+	font-size: 20px;
 }
 #result_table td {
     font-size:10px
@@ -362,7 +362,7 @@ a.popup_link:hover {
 #ending {
 }
 /* -- chars ---------------------------------------------------------------------- */
-.testChars {margin-left: 150px; font-size:10px; text-align:center;}
+.testChars {margin-left: 150px; font-size:20px; text-align:center;}
 .btn-info1 {
     color: #fff;
     background-color: #28B463;
@@ -451,7 +451,7 @@ var myNewChart = new Chart(ctx).Pie(data,newopts);
     #
 
     REPORT_TMPL = """
-<p id='show_detail_line' style="margin-left: 16px; font-size:12px">Show
+<p id='show_detail_line' style="margin-left: 16px; font-size:20px">Show
 <a href='javascript:showCase(0)' class="btn btn-xs btn-primary">Summary</a>
 <a href='javascript:showCase(1)' class="btn btn-xs btn-danger">Failed</a>
 <a href='javascript:showCase(2)' class="btn btn-xs btn-info">All</a>

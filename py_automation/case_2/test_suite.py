@@ -2,8 +2,6 @@
 
 import unittest
 from py_automation.case_2.test_mathfunc import TestMathFunc
-# from HTMLTestRunner import HTMLTestRunner # pip install html-testRunner
-# from HTMLTestRunner import HTMLTestRunner
 from py_report.htmltestrunner3 import HTMLTestRunner
 import time
 import os
@@ -14,7 +12,7 @@ if __name__ == '__main__':
     suite = unittest.TestSuite()
 
     # 使用这种方法可以对测试用例排序
-    tests = [TestMathFunc("test_add"), TestMathFunc("test_minus"), TestMathFunc("test_divide"), TestMathFunc("test_multi")]
+    tests = [TestMathFunc("test_multi"), TestMathFunc("test_log_ex")]
     suite.addTests(tests)
 
     # 使用TestLoader的方法传入TestCase

@@ -2,7 +2,7 @@
 
 import unittest
 from py_automation.case_2.mathfunc import *
-
+from learnPython.py_log.log_demo import *
 
 class TestMathFunc(unittest.TestCase):
     def setUp(self):
@@ -35,6 +35,11 @@ class TestMathFunc(unittest.TestCase):
         print("测试除法")
         self.assertEqual(2, divide(6, 3))
         self.assertEqual(2.5, divide(5, 2))
+
+    def test_log_ex(self):
+        """Test python's log function"""
+        print("Test python's log")
+        log_ex()
 
 '''
 if __name__ == '__main__':
