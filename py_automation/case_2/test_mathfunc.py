@@ -17,7 +17,7 @@ class TestMathFunc(unittest.TestCase):
         """测试加法功能"""
         print("测试加法")
         self.assertEqual(3, add(1, 2))
-        self.assertNotEqual(3, add(1, 2))
+        self.assertNotEqual(4, add(1, 2))
 
     # @unittest.skip("i don't want to run this case")
     def test_minus(self):
