@@ -15,7 +15,7 @@ def send_email(report_file):
     smtpserver = 'smtp.163.com'
     # 发送邮箱用户名/密码
     user = 'fmo021@163.com'
-    password = '********'
+    password = 'myMail2012'
     sender = "fmo021@163.com"
     # 多个接收邮箱，单个收件人的话，直接是receiver='XXX@126.com'
     receiver = ['fmo021@126.com', 'murphy_021@qq.com']
