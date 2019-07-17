@@ -22,7 +22,7 @@ if __name__=='__main__':
     tests = [TestMathFunc("test_multi"), TestMathFunc("test_log_ex")]
     suite.addTests(tests)
 
-    now = time.strftime('%Y-%m-%d_%H:%M:%S')
+    now = time.strftime('%Y-%m-%d_%H-%M-%S')
     ready_report_path = os.path.join(test_report_dir, now)
     os.mkdir(ready_report_path)
 
