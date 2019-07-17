@@ -14,7 +14,7 @@ current_file_path = os.path.dirname(__file__)
 file_path = os.path.join(current_file_path, "os_path.py")
 print(file_path)
 
-open_file = open(file_path, mode='r', buffering=1, encoding='utf8')
+open_file = open(file_path, mode='r', buffering=True, encoding='utf8')
 
 while True:
     content = open_file.readline()
@@ -22,3 +22,12 @@ while True:
         break
     print(content)
 
+open_file.close()
+
+
+# open file with
+with open(file_path, mode='r', buffering=True, encoding='utf8') as open_file_with:
+    for line in open_file_with.readlines():
+        if not line:
+            break
+        print(line)
