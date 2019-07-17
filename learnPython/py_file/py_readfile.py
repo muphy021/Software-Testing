@@ -14,7 +14,7 @@ current_file_path = os.path.dirname(__file__)
 file_path = os.path.join(current_file_path, "os_path.py")
 print(file_path)
 
-open_file = open(file_path, 'r', True)
+open_file = open(file_path, mode='r', buffering=1, encoding='utf8')
 
 while True:
     content = open_file.readline()
