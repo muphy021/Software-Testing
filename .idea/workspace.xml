@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1875a1a7-f5d9-4bf5-8a11-44bd33b7aafc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_automation/case_3/common_func/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_automation/case_3/common_func/send_email.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py_automation/case_3/runtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="544">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#27#84#0" expanded="true" />
               </folding>
@@ -38,28 +37,19 @@
         <entry file="file://$PROJECT_DIR$/py_automation/case_3/common_func/find_report_file.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_automation/case_3/common_func/send_email.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnPython/py_file/py_readfile.py">
+        <entry file="file://$PROJECT_DIR$/py_automation/case_3/common_func/send_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#27#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,12 +121,14 @@
         <option value="$PROJECT_DIR$/py_automation/case_3/test_case/test_add.py" />
         <option value="$PROJECT_DIR$/py_automation/case_3/common_func/find_report_file.py" />
         <option value="$PROJECT_DIR$/py_automation/case_3/runtest.py" />
+        <option value="$PROJECT_DIR$/py_automation/case_3/report/info.txt" />
         <option value="$PROJECT_DIR$/py_automation/case_3/common_func/send_email.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="110" />
+    <option name="y" value="39" />
     <option name="width" value="1920" />
     <option name="height" value="968" />
   </component>
@@ -159,23 +151,6 @@
               <item name="git" type="b2602c69:ProjectViewProjectNode" />
               <item name="git" type="462c0819:PsiDirectoryNode" />
               <item name="py_automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="py_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="case_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="py_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="case_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="py_report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +290,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in test_suite.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in /Users/mofei/Documents/OneDrive/Study/PycharmProjects/git/py_automation/test_suite.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="Software-Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,11 +307,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.exe_py_test" />
-      <item itemvalue="Python.tstReadConfig" />
       <item itemvalue="Python.py_readfile" />
-      <item itemvalue="Python tests.Nosetests in test_suite.py" />
       <item itemvalue="Python.py_writefile" />
       <item itemvalue="Python.runtest" />
+      <item itemvalue="Python.tstReadConfig" />
+      <item itemvalue="Python tests.Nosetests in /Users/mofei/Documents/OneDrive/Study/PycharmProjects/git/py_automation/test_suite.py" />
     </list>
     <recent_temporary>
       <list>
@@ -344,7 +319,7 @@
         <item itemvalue="Python.py_writefile" />
         <item itemvalue="Python.py_readfile" />
         <item itemvalue="Python.tstReadConfig" />
-        <item itemvalue="Python tests.Nosetests in test_suite.py" />
+        <item itemvalue="Python tests.Nosetests in /Users/mofei/Documents/OneDrive/Study/PycharmProjects/git/py_automation/test_suite.py" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +488,42 @@
       <option name="project" value="LOCAL" />
       <updated>1563355387660</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="屏蔽">
+      <created>1563356115251</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1563356115251</updated>
+    </task>
+    <task id="LOCAL-00024" summary="删除不恰当的文件">
+      <created>1563356359015</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563356359015</updated>
+    </task>
+    <task id="LOCAL-00025" summary="删除不恰当的文件">
+      <created>1563356469060</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1563356469060</updated>
+    </task>
+    <task id="LOCAL-00026" summary="temp change">
+      <created>1563356623972</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563356623972</updated>
+    </task>
+    <task id="LOCAL-00027" summary="temp change">
+      <created>1563356710283</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1563356710283</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -550,14 +560,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="968" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22432859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22432859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49921012" visible="true" weight="0.3652968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921012" weight="0.3652968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39840183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,7 +600,10 @@
     <MESSAGE value="解释出错原因：open只需要三个参数，但是输入4个参数时报错的问题" />
     <MESSAGE value="练习对文件的写操作" />
     <MESSAGE value="test_case, find_report, send_mail" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_case, find_report, send_mail" />
+    <MESSAGE value="屏蔽" />
+    <MESSAGE value="删除不恰当的文件" />
+    <MESSAGE value="temp change" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,7 +622,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_automation/testResult_report2019-06-29 164139.html" />
     <entry file="file://$PROJECT_DIR$/learnPython/py_basic/list_tuple_dic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -847,12 +858,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnPython/py_file/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_3/test_case/test_multiple.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/learnPython/py_file/test.txt" />
+    <entry file="file://$PROJECT_DIR$/py_automation/case_3/test_case/test_multiple.py" />
     <entry file="file://$PROJECT_DIR$/py_report/htmltestrunner3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5512" />
@@ -868,9 +875,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_3/test_case/test_add.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_3/test_case/test_add.py" />
     <entry file="file://$PROJECT_DIR$/py_automation/case_2/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -895,13 +900,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_3/test_case/test_info.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/py_automation/case_3/test_case/test_info.py" />
+    <entry file="file://$PROJECT_DIR$/py_automation/case_3/report/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learnPython/py_file/py_readfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="627">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_automation/case_3/runtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#27#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -915,26 +935,16 @@
     <entry file="file://$PROJECT_DIR$/py_automation/case_3/common_func/find_report_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_automation/case_3/runtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#27#84#0" expanded="true" />
-          </folding>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_automation/case_3/common_func/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#27#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
